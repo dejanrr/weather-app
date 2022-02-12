@@ -1,0 +1,40 @@
+.search-box {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.search-box-icon {
+  padding-top: 6px;
+}
+
+.search-bar {
+  width: 100%;
+  padding: 5%;
+
+  text-overflow: none;
+  text-align: left;
+  font-family: "Montserrat", sans-serif;
+
+  appearance: none;
+  background-color: transparent;
+  border: none;
+  outline: none;
+
+  color: #000;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+input::placeholder {
+  color: #223354b3;
+  font-weight: 400;
+}
+
+.search-box .search-bar:focus {
+  background-color: transparent;
+}
+
+input:focus::placeholder {
+  color: transparent;
+}

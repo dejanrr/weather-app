@@ -1,0 +1,44 @@
+.hourly-weather-row {
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+}
+
+.hourly-weather-title {
+  text-align: center;
+  color: #bbb;
+  margin-top: 5px;
+}
+
+.hourly-weather-value {
+  text-align: center;
+  font-weight: 700;
+  margin-top: 10px;
+}
+
+.hourly-weather-icon {
+  text-align: center;
+}
+
+.hourly-weather-heading {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.hourly-weather-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  margin: auto;
+}
+
+.back-icon {
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 768px) {
+  .hourly-weather-row {
+    flex-direction: column;
+  }
+}

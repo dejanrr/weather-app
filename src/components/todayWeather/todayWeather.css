@@ -1,0 +1,54 @@
+.today-weather-wrapper {
+  margin: auto;
+}
+
+.today-weather {
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+}
+
+.weather-box {
+  width: 180px;
+  height: 155px;
+  background-color: #fff;
+  border-radius: 20px;
+  margin: 0 20px 0 0;
+  text-align: center;
+}
+
+.weather-box-value {
+  font-size: 60px;
+  font-weight: 700;
+}
+
+.weather-box-title {
+  font-weight: 500;
+  color: #bbb;
+  margin-top: 15px;
+}
+
+@media only screen and (max-width: 768px) {
+  .today-weather {
+    flex-direction: column;
+  }
+
+  .weather-box {
+    margin: 20px auto;
+  }
+
+  .page-title {
+    margin-top: 50px;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .weather-box {
+   width: 140px;
+   height: 120px;
+  }
+
+  .weather-box-value {
+    font-size: 30px;  
+  }
+}

@@ -1,0 +1,24 @@
+.navbar {
+  width: 100%;
+  display: flex;
+}
+
+.navbar-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar-list {
+  list-style: none;
+}
+
+.navbar-list li {
+  display: inline-block;
+}
+
+.logo {
+  font-family: "Roboto Condensed", sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+}

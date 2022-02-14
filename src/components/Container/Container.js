@@ -66,7 +66,11 @@ const Container = () => {
                 <div className="time">
                   {weather.location.localtime.slice(10)}
                 </div>
-                <div className="date">{dateBuilder(new Date())}</div>
+                <div className="date">
+                {weather.location.localtime.slice(8, 10)}.
+                {weather.location.localtime.slice(5, 7)}.
+                {weather.location.localtime.slice(0, 4)}.
+                  {/* {dateBuilder(new Date())} */}</div>
 
                 <div className="current-condition">
                   <div className="city-weather-icon">
